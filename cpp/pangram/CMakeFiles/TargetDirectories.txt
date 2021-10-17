@@ -1,0 +1,4 @@
+/Users/andreistroe/Exercism/cpp/pangram/CMakeFiles/rebuild_cache.dir
+/Users/andreistroe/Exercism/cpp/pangram/CMakeFiles/edit_cache.dir
+/Users/andreistroe/Exercism/cpp/pangram/CMakeFiles/test_pangram.dir
+/Users/andreistroe/Exercism/cpp/pangram/CMakeFiles/pangram.dir
