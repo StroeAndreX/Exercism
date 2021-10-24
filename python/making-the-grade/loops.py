@@ -1,5 +1,3 @@
-import math
-
 def round_scores(student_scores):
     """
     :param student_scores: list of student exam scores as float or int.
