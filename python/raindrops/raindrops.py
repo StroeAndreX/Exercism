@@ -1,10 +1,6 @@
 def convert(number):
-    sounds = ["Pling", "Plang", "Plong"]
-    value = [(number % 3 == 0), (number % 5 == 0), (number % 7 == 0)];
-    result = ""
+    drops = ((3,'Pling'), (5,'Plang'), (7,'Plong'))
 
-    for x in range(3):
-        if(value[x]): result += sounds[x] 
-
-    if(result != ""): return result
-    else: return str(number)
+    """Converts a number to a string according to the raindrop sounds."""
+    speak = [s for f, s in drops if number % f == 0]
+    return "".join(speak) if speak else str(number)
